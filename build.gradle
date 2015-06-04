@@ -1,0 +1,13 @@
+apply plugin: 'application'
+
+mainClassName = "sample.gradle.GradleMain"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'com.googlecode.jmockit:jmockit:1.4'
+    testCompile 'junit:junit:4.11'
+    testCompile 'org.hamcrest:hamcrest-library:1.3'
+}
